@@ -11,6 +11,10 @@
     <properties>
         <maven.compiler.source>13</maven.compiler.source>
         <maven.compiler.target>13</maven.compiler.target>
+        <licensekey.version>3.1.2</licensekey.version>
+<html2pdf.version>3.0.3-SNAPSHOT</html2pdf.version>
+<itext.version>7.1.14-SNAPSHOT</itext.version>
+<typography.version>2.0.9-SNAPSHOT</typography.version>     
     </properties>
 
 
@@ -25,29 +29,7 @@
     <artifactId>vsc-messages</artifactId>
     <version>1.0</version>
 </dependency>
-<dependency>
-    <groupId>com.techsophy</groupId>
-    <artifactId>vsc-commons</artifactId>
-    <version>1.0</version>
-    <exclusions>
-        <exclusion>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j-impl</artifactId>
-        </exclusion>
-        <exclusion>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-        </exclusion>
-        <exclusion>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-logging</artifactId>
-        </exclusion>
-        <exclusion>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>logback-classic</artifactId>
-        </exclusion>
-    </exclusions>
-</dependency>
+
 <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-thymeleaf</artifactId>
