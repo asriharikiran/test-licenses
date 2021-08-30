@@ -17,104 +17,119 @@
 <dependencies>
 <dependency>
 
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-webflux</artifactId>
-</dependency>
-<!-- https://mvnrepository.com/artifact/com.google.firebase/firebase-admin -->
-<dependency>
-   <groupId>com.google.firebase</groupId>
-   <artifactId>firebase-admin</artifactId>
-   <version>6.14.0</version>
-   <exclusions>
-      <exclusion>
-         <groupId>org.codehaus.jackson</groupId>
-         <artifactId>jackson-core-asl</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.http-client</groupId>
-         <artifactId>google-http-client-jackson</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.http-client</groupId>
-         <artifactId>google-http-client-gson</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.api-client</groupId>
-         <artifactId>google-api-client-gson</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>joda-time</groupId>
-         <artifactId>joda-time</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.code.gson</groupId>
-         <artifactId>gson</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.auto.value</groupId>
-         <artifactId>auto-value</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>org.threeten</groupId>
-         <artifactId>threetenbp</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>org.json</groupId>
-         <artifactId>json</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.cloud</groupId>
-         <artifactId>google-cloud-firestore</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.apis</groupId>
-         <artifactId>google-api-services-storage</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>org.apache.httpcomponents</groupId>
-         <artifactId>httpclient</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>org.apache.httpcomponents</groupId>
-         <artifactId>httpcore</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.api</groupId>
-         <artifactId>gax</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.cloud</groupId>
-         <artifactId>google-cloud-storage</artifactId>
-      </exclusion>
-      <exclusion>
-         <groupId>com.google.api-client</groupId>
-         <artifactId>google-api-client</artifactId>
-      </exclusion>
-   </exclusions>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
 <dependency>
-   <groupId>com.google.api-client</groupId>
-   <artifactId>google-api-client</artifactId>
-   <version>1.30.10</version>
+    <groupId>com.techsophy</groupId>
+    <artifactId>vsc-messages</artifactId>
+    <version>1.0</version>
 </dependency>
 <dependency>
-   <groupId>org.json</groupId>
-   <artifactId>json</artifactId>
-   <version>20200518</version>
+    <groupId>com.techsophy</groupId>
+    <artifactId>vsc-commons</artifactId>
+    <version>1.0</version>
+    <exclusions>
+        <exclusion>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </exclusion>
+        <exclusion>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>logback-classic</artifactId>
+        </exclusion>
+    </exclusions>
 </dependency>
 <dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-configuration-processor</artifactId>
-   <optional>true</optional>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
 </dependency>
-      <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-      </dependency>
-      <dependency>
-          <groupId>org.projectlombok</groupId>
-          <artifactId>lombok</artifactId>
-      </dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>kernel</artifactId>
+    <version>${itext.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>layout</artifactId>
+    <version>${itext.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>forms</artifactId>
+    <version>${itext.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>barcodes</artifactId>
+    <version>${itext.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>sign</artifactId>
+    <version>${itext.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>typography</artifactId>
+    <version>${typography.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>itext-licensekey</artifactId>
+    <version>${licensekey.version}</version>
+</dependency>
+<dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>html2pdf</artifactId>
+    <version>${html2pdf.version}</version>
+</dependency>
+<dependency>
+    <groupId>net.sf.barcode4j</groupId>
+    <artifactId>barcode4j</artifactId>
+    <version>2.1</version>
+    <exclusions>
+        <exclusion>
+            <groupId>org.apache.ant</groupId>
+            <artifactId>ant</artifactId>
+        </exclusion>
+    </exclusions>
+</dependency>
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.sentry</groupId>
+    <artifactId>sentry-spring-boot-starter</artifactId>
+    <version>3.1.0</version>
+</dependency>
+<dependency>
+    <groupId>io.sentry</groupId>
+    <artifactId>sentry-logback</artifactId>
+    <version>3.2.0</version>
+</dependency>
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.14</version>
+    <scope>provided</scope>
+</dependency>
+
 </dependencies>
              
              
