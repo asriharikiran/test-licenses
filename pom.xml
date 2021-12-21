@@ -74,7 +74,7 @@
 <dependency>
    <groupId>org.apache.tomcat</groupId>
    <artifactId>tomcat-catalina</artifactId>
-   <version>10.0.0-M8</version>
+   <version>10.0.7</version>
 </dependency>
 <dependency>
    <groupId>org.springdoc</groupId>
@@ -160,7 +160,7 @@
 <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
-    <version>10.0.0-M8</version>
+    <version>10.0.7</version>
 </dependency>
 <dependency>
     <groupId>org.meanbean</groupId>
@@ -240,7 +240,7 @@
 <dependency>
    <groupId>org.apache.tomcat</groupId>
    <artifactId>tomcat-catalina</artifactId>
-   <version>10.0.0-M8</version>
+   <version>10.0.7</version>
 </dependency>
       <dependency>
           <groupId>javax.xml.bind</groupId>
@@ -483,7 +483,7 @@
 <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
-    <version>10.0.0-M8</version>
+    <version>10.0.7</version>
 </dependency>
 <dependency>
     <groupId>com.techsophy</groupId>
@@ -581,7 +581,7 @@
 <dependency>
    <groupId>org.apache.tomcat</groupId>
    <artifactId>tomcat-catalina</artifactId>
-   <version>10.0.0-M8</version>
+   <version>10.0.7</version>
 </dependency>
 <dependency>
    <groupId>org.springdoc</groupId>
@@ -696,7 +696,7 @@
 <dependency>
    <groupId>org.apache.tomcat</groupId>
    <artifactId>tomcat-catalina</artifactId>
-   <version>10.0.0-M8</version>
+   <version>10.0.7</version>
 </dependency>
       <dependency>
           <groupId>org.powermock</groupId>
@@ -826,7 +826,7 @@
 <dependency>
     <groupId>org.apache.tomcat</groupId>
     <artifactId>tomcat-catalina</artifactId>
-    <version>10.0.0-M8</version>
+    <version>10.0.7</version>
 </dependency>
 <dependency>
     <groupId>org.meanbean</groupId>
