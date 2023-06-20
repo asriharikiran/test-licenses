@@ -532,7 +532,7 @@
 <dependency>
    <groupId>com.twilio.sdk</groupId>
    <artifactId>twilio</artifactId>
-   <version>7.53.0</version>
+   <version>8.0.0</version>
 </dependency>
 
 
@@ -931,7 +931,7 @@
       <dependency>
          <groupId>com.microsoft.graph</groupId>
          <artifactId>microsoft-graph</artifactId>
-         <version>2.3.1</version>
+         <version>5.60.0</version>
       </dependency>
       <dependency>
          <groupId>io.jsonwebtoken</groupId>
@@ -979,7 +979,7 @@
       <dependency>
          <groupId>org.springframework.kafka</groupId>
          <artifactId>spring-kafka</artifactId>
-         <version>2.6.0</version>
+         <version>3.0.8</version>
       </dependency>
       <dependency>
          <groupId>org.springframework.boot</groupId>
@@ -1036,7 +1036,7 @@
       <dependency>
          <groupId>com.google.guava</groupId>
          <artifactId>guava</artifactId>
-         <version>29.0-jre</version>
+         <version>32.0.0-jre</version>
       </dependency>
 
       <dependency>
