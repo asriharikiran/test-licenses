@@ -931,7 +931,7 @@
       <dependency>
          <groupId>com.microsoft.graph</groupId>
          <artifactId>microsoft-graph</artifactId>
-         <version>2.3.1</version>
+         <version>5.27.0</version>
       </dependency>
       <dependency>
          <groupId>io.jsonwebtoken</groupId>
