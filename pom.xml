@@ -84,7 +84,7 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.5.9</version>
 </dependency>
       <dependency>
           <groupId>io.sentry</groupId>
@@ -101,7 +101,7 @@
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-security</artifactId>
-    <version>1.2.32</version>
+    <version>1.5.9</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -515,7 +515,7 @@
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-security</artifactId>
-    <version>1.2.32</version>
+    <version>1.5.9</version>
 </dependency>
 <dependency>
 
@@ -591,7 +591,7 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.5.9</version>
 </dependency>
 <dependency>
    <groupId>com.windowsazure</groupId>
@@ -654,7 +654,7 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.5.9</version>
 </dependency>
 <!-- Thymeleaf -->
 <dependency>
@@ -747,7 +747,7 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.5.9</version>
 </dependency>
 <dependency>
 
@@ -868,7 +868,7 @@
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-security</artifactId>
-    <version>1.2.32</version>
+    <version>1.5.9</version>
 </dependency>
 <dependency>
     <groupId>commons-fileupload</groupId>
