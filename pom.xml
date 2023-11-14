@@ -79,12 +79,12 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-ui</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.0</version>
 </dependency>
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.4</version>
 </dependency>
       <dependency>
           <groupId>io.sentry</groupId>
@@ -96,12 +96,12 @@
 
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-ui</artifactId>
-    <version>1.2.32</version>
+    <version>1.6.0</version>
 </dependency>
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-security</artifactId>
-    <version>1.2.32</version>
+    <version>1.6.4</version>
 </dependency>
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -510,12 +510,12 @@
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-ui</artifactId>
-    <version>1.2.32</version>
+    <version>1.6.0</version>
 </dependency>
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-security</artifactId>
-    <version>1.2.32</version>
+    <version>1.6.4</version>
 </dependency>
 <dependency>
 
@@ -586,12 +586,12 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-ui</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.0</version>
 </dependency>
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.4</version>
 </dependency>
 <dependency>
    <groupId>com.windowsazure</groupId>
@@ -649,12 +649,12 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-ui</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.0</version>
 </dependency>
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.4</version>
 </dependency>
 <!-- Thymeleaf -->
 <dependency>
@@ -742,12 +742,12 @@
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-ui</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.0</version>
 </dependency>
 <dependency>
    <groupId>org.springdoc</groupId>
    <artifactId>springdoc-openapi-security</artifactId>
-   <version>1.2.32</version>
+   <version>1.6.4</version>
 </dependency>
 <dependency>
 
@@ -863,12 +863,12 @@
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-ui</artifactId>
-    <version>1.2.32</version>
+    <version>1.6.0</version>
 </dependency>
 <dependency>
     <groupId>org.springdoc</groupId>
     <artifactId>springdoc-openapi-security</artifactId>
-    <version>1.2.32</version>
+    <version>1.6.4</version>
 </dependency>
 <dependency>
     <groupId>commons-fileupload</groupId>
