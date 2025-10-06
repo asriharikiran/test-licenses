@@ -352,7 +352,7 @@
 <dependency>
     <groupId>io.sentry</groupId>
     <artifactId>sentry-logback</artifactId>
-    <version>3.2.0</version>
+    <version>6.25.2</version>
 </dependency>
 <dependency>
     <groupId>org.projectlombok</groupId>
@@ -1122,7 +1122,7 @@
       <dependency>
          <groupId>com.azure</groupId>
          <artifactId>azure-storage-blob</artifactId>
-         <version>12.10.0</version>
+         <version>12.31.3</version>
       </dependency>
 
 </dependencies>
