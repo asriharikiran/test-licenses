@@ -1029,7 +1029,7 @@
       <dependency>
          <groupId>com.microsoft.sqlserver</groupId>
          <artifactId>mssql-jdbc</artifactId>
-         <version>8.2.2.jre13</version>
+         <version>10.2.4.jre8</version>
       </dependency>
 
       <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
